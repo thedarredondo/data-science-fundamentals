@@ -68,16 +68,16 @@ taking a Bayesian perspective:
 
 - it allows for precise *and* interpretable controlling of overfitting
 - *all* assumptions about the scope of a problem can--theoretically--be included in a bayesian model.
-- it gives us intuition for how and deep neural neural networks (the large, complicated AI models that make the news) work.
+- it gives us intuition for how and why deep neural neural networks (the large, complicated AI models that make the news) work.
 
-I'll expand on that last point: the bayesain framework shows the connection between all of statistical inference, learning, 
+I'll expand on that last point: the bayesain framework shows the connection between all statistical inference, learning, 
 and decision theory.
 
 So what's the catch?
 
 I, and many other bayesians, don't think there is a catch.
 
-But some people might say there are two "catches" with bayesian statistics:
+But as an educational exercise, I'll pretend there are two "catches" with bayesian statistics:
 - we need to admit that all predictions requie assumptions.
 - we end up with some gnarly integrals.
 
@@ -85,10 +85,10 @@ The first one isn't actaully a problem, its just an exercise in humility.
 
 The second one, about the integrals, is more interesting. It used to be a problem before computers and certain algorithms
 (Markov Chain Monte Carlo mostly) were invented and refined. With librairies like pymc or similar, we can consistently wiggle
-our way past the integral computations. There's a lot fo depth here, but the point is we have tools that are just as reliable 
+our way past the integral computations. There's a lot of depth here, but the point is we have tools that are just as reliable 
 as those tables of z scores you'll find on the AP stats exam.
 
-Oh here's a benefit I forgot to mention: its cleaner to derive bayesian statistics from the probablity axioms than other
+Oh, here's a benefit I forgot to mention: its cleaner to derive bayesian statistics from the probablity axioms than other
 frameworks. I'd say its more natural.
 
 ## Textbook(s) Used
