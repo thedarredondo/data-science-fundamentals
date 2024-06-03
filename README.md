@@ -1,7 +1,7 @@
 # data-science-fundamentals
 Code and data for the course Data Science Fundamentals: A Bayesian Perspective
 
-##How to Use these Materials
+## How to Use these Materials
 
 All the files are jupyter notebooks, created within Google's [Colab environment](https://colab.research.google.com/).
 I highly recommend viewing and manipulating these files in that environment, and having your students manipulate copies 
@@ -25,12 +25,21 @@ Excercises are either meant to :
 Projects are open ended activities where students apply the preivous Unit's knowledge onto a data set of the student's 
 choosing.
 
-##Textbook(s) Used
+## Suggestions on grading
+
+The main purpose of this course is to get students to think about modeling decisions. I encourage you to create a grading 
+plan that focuses on how students explain and justify there decisions, and rewards creativity, oral, and visual presentation.
+
+My grading scheme:
+
+[*I swear I'll do this eventually*}
+
+## Textbook(s) Used
 Martin Osvaldo A, Bayesian Analysis with Python. Packt Publishing. 2024. ISBN 978-1-80512-716-1
 I used the third additon, and will reference it as BAP3
 I cannot recommend this textbook enough. This course closely follows this textbook in scope, content, pace, and presentation.
 The main difference is that my course breaks BAP3's first two units into 3 units, and my course adds an intro to python unit.
 Later chapters are even more closely aligned.
 
-###License
+### License
 Data Science Fundamentals © 2024 by David Arredondo is licensed under CC BY-NC-SA 4.0 
