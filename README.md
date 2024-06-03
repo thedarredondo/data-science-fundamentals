@@ -1,6 +1,30 @@
 # data-science-fundamentals
 Code and data for the course Data Science Fundamentals: A Bayesian Perspective
 
+## Goal
+
+The goal of this course is to get as many people as possible actually doing bayesian statistical analysis as soon as possible.
+Any inclusions and exclusions in content were made with this in mine.
+
+Here's a more concrete teaser: by the end of the course, students will be able to apply the bayesian additive regression tree 
+(BART) model to real world data, explain how BART connects to neural networks NN), and why BART models perform as well or
+better than NNs on small to medium size data sets.
+
+There's a lot of learning on the way to that goal, and I've ienvitably left things out, both intentially and unintentially.
+
+## Prerequisites 
+
+Algebra II.
+
+This could be relaxed if the material in Units 2 and 3 was modified to almost entirely ignore mathematical formula.
+Even so, I'd caution teaching this course with only an Alg. I prereq.
+
+My resasoning: this course assumes students have decent graphical inuition, and demands that students use graphical 
+representations to summarize functions (statisical models are functions). Without graphical inuition to lean on in times of
+stress , I fear that students will memorize instead of explore.
+
+Perhaps my fears are unfounded. Open a discussion to let me know your thoughts.
+
 ## How to Use these Materials
 
 All the files are jupyter notebooks, created within Google's [Colab environment](https://colab.research.google.com/).
@@ -13,7 +37,10 @@ are written to be viewed by educators and students alike.
 
 SFs have tasks and blanks spots for student answers. Educators are meant to guide students to an answer when doing a task,
 and are intended to collaborate as much as possible on the tasks in SFs. Its very possible students will be unable to 
-reach a resonable or compplete answer; teacher's are to then fill in the blanks, with the help of the AK.
+reach a resonable or complete answer on their own; teacher's are to then fill in the blanks, with the help of the AK. 
+This probably goes without saying, but try to encourage any attempt at completing the task, however nonsensical it may 
+seem to you. It make not actually be that far off on closer inspection, especially considering that this course by necissity 
+leaves a lot of content out.
 
 There two other files: Exercises, and Projects.
 
