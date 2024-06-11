@@ -16,7 +16,7 @@ There's a lot of learning on the way to that goal, and I've ienvitably left thin
 
 Algebra II.
 
-This could be relaxed if the material in Units 2 and 3 was modified to almost entirely ignore mathematical formula.
+This could be relaxed if the material in Units 1, 2, and 3 was modified to almost entirely ignore mathematical formula.
 Even so, I'd caution teaching this course with only an Alg. I prereq.
 
 My resasoning: this course assumes students have decent graphical inuition, and demands that students use graphical 
