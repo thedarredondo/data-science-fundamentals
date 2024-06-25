@@ -4,53 +4,56 @@ Code and data for the course Data Science Fundamentals: A Bayesian Perspective
 ## Goal
 
 The goal of this course is to get as many people as possible doing bayesian statistical analysis as soon as possible.
-Any inclusions and exclusions in content were made with this goal in mine.
-I'd love to hear feedback on how to better achieve the goal of getting the most people doing bayesian statistics quickly.
+Any inclusions and exclusions in content were made with this goal in mind.
+I'd love to hear feedback on how to better achieve the goal of getting the most people doing bayesian statistics.
 
-If you're familiar with either bayesian statisticals or statistical learning, then here's a more concrete version of the goal: 
+By the end of the course, students will:
 
-by the end of the course, 
+- understand that all models are wrong, but that some models are useful.
 
-students will be able to apply the bayesian additive regression tree 
+- understand the connection between between model architectures, from a single variable parameter estimate, through various forms of linear regression, and to Guassian proccesses and Random Forests.
+
+- be able to explain why all models require assumptions.
+
+- be able to use contextual knowledge and assumptions to their advantage in the contruction of statistical models, through the use of likelihoods and priors
+
+- be able to explain the concepts of under and over fitting (AKA the bias/variance tradeoff), and how prior and likelihood selection influnces under and over fitting.
+
+If you're familiar with either bayesian statisticals or statistical learning, or using this course to teach yourself, then here's a more concrete teaser: 
+
+- by the end of the course, you will be able to apply the bayesian additive regression tree 
 (BART) model to real world data, explain how BART models connect to neural networks (NN), and explain why BART models perform as well or
 better than NNs on small to medium size data sets.
 
-There's a lot of learning on the way to that goal, and I've ienvitably left things out, both intentially and unintentially. Again, let me know if any of those decisions should change.
+There's a lot of learning on the way to these goal, and I've ienvitably left things out. Let me know if you have any suggestions.
 
 ## Prerequisites 
 Hardware:
+
 1 to 1 student to computer ratio
 
 Content Knowledge:
 
 Algebra II
 
-The Alg. II prereq. could be relaxed if the material in Units 1, 2, and 3 was modified to almost entirely ignore mathematical formula.
-Even so, I'd caution teaching this course with only an Alg. I prerequisete.
+The Alg. II prereq. could be relaxed if the material in Units 1, 2, and 3 was modified to almost entirely ignore mathematical formula. This course assumes students have decent graphical inuition, and assumes that students find it obvious that graphs can summarize algorithms and functions. 
 
-My resasoning: this course assumes students have decent graphical inuition, and demands that students use graphical 
-representations to summarize functions (statisical models are functions). Without graphical inuition to lean on in times of
-stress , I fear that students will memorize instead of explore.
-
-Perhaps my fears are unfounded. Open a discussion to let me know your thoughts. Especially let me know if you taught a version of this course to students
-who only new Alg. I, and felt that it went well.
+No prior coding/progamming experience necessary [*at least, once I finish Unit 1*]
 
 ## Structure of the Lesson Materials
 
 All the files are jupyter notebooks, created within Google's [Colab environment](https://colab.research.google.com/).
-I highly recommend viewing and manipulating these files in that environment, and having your students manipulate copies 
-of those files in colab as well. Colab is not only user friendly, its also a standard environment for doing data analysis 
-and machine learning in inudstry.
+I recommend viewing and manipulating these files in that environment, and having your students manipulate copies 
+of those files in colab as well. Colab is user friendly, its a standard environment for doing data analysis 
+and machine learning.
 
-Files are broken up into Units. Within each unit there is an Answer Key (AK) and Student Facing Notes (SF). AKs 
+The course is broken up into Units. Within each unit there are 4 files, two of which are Answer Key Notes (AK) and Student Facing Notes (SF). AKs 
 are written to be viewed by educators and students alike.
 
 SFs have tasks and blanks spots for student answers. Educators are meant to guide students to an answer when doing a task,
-and students are intended to collaborate as much as possible on the tasks in SFs. Its very possible students will be unable to 
+and students are intended to collaborate as much as possible on the tasks in SFs. Its possible students will be unable to 
 reach a resonable or complete answer on their own; teacher's are to then step in with a lecture, with the help of the AK. 
-This probably goes without saying, but try to encourage any attempt at completing a task, however nonsensical it may 
-seem to you. It make not actually be that far off on closer inspection, especially considering that this course by necissity 
-leaves a lot of content out.
+See 'How to Use the Lesson Materials' for more details.
 
 There two other files in a Unit: Exercises, and Projects.
 
@@ -60,10 +63,10 @@ Excercises are either meant to:
 - Reinforce complex or important skills.
 
 I have AKs for the most of the Exercises, but I have chosen not to publish them on github. I know this makes it harder to use them in your own practice, 
-but I think its important to have some activites besides the projects were there's no immediate authority to run to.
+but I think its important to have activites where there's no immediate authority to run to.
 
 Projects are open ended activities where students apply a Unit's content onto a data set of the student's 
-choosing. 
+choosing.
 - Students are encouraged to copy code from the AK and Exercises for their project, modifying as needed.
 - All projects have a proposal component, so that the educator can review a student's proposed data set, and guide them towards a workable model.
 
@@ -78,8 +81,8 @@ The more:
 - Educators need to be ready to respond to questions they don't know the answer to.
 The exploratory nature of the content means that students will venture into territory outside the scope of a given unit,
 or even outside the scope of the course. I think this is a plus. Although I've taken some steps to mitigate this and encourage focus on the relevant tasks at hand,
-its important of rany statistician to practice curiosity, creativity, and humility. I try to model this by letting students know when I don't know.
-I try to follow up that humility with curisoity, either a conjecture, or an impromtu class disscussion.
+its important for any statistician to practice curiosity, creativity, and humility. I try to model this by letting students know when I don't know,
+and then follow up that humility with curisoity: either a conjecture, or an impromtu class disscussion.
 
 - Grading projects is hard.
 Statistics is hard. I'm probably not qualified to teach a bayesian statistics course, let alone design one.
@@ -125,11 +128,11 @@ But as an educational exercise, I'll pretend there are two "catches" with bayesi
 - we need to admit that all predictions requie assumptions.
 - we end up with some gnarly integrals.
 
-The first one isn't actaully a problem, its just an exercise in humility.
+The first one isn't actually a problem, its just an exercise in humility.
 
 The second one, about the integrals, is more interesting. It used to be a problem before computers and certain algorithms
-(Markov Chain Monte Carlo variants, mostly) were invented and refined. With librairies like pymc or similar, we can consistently wiggle
-our way past the integral computations. There's a lot of depth there, but the point is that we have tools that are just as reliable 
+(Markov Chain Monte Carlo variants, mostly) were invented and refined. Now, with librairies like pymc or similar, we can consistently wiggle
+our way past the integral computations. There's a lot of depth here, but the point is that we have tools that are just as reliable 
 as those tables of z scores you'll find on the AP stats exam.
 
 ## Textbook(s) Used
@@ -140,6 +143,10 @@ I used the third additon, and will reference it as BAP3. Buy it, support the aut
 I cannot recommend this textbook enough. This course closely follows this textbook in scope, content, pace, and presentation.
 The main difference is that my course breaks BAP3's first two units into 3 units, and my course adds an intro to python unit.
 Later chapters are even more closely aligned.
+
+There's a second textbook I recommend:
+
+
 
 ### License
 
