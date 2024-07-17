@@ -32,6 +32,8 @@ Hardware:
 
 1 to 1 student to computer ratio
 
+If using Colab, which I recommend, then consistent internet access is a must.
+
 Content Knowledge:
 
 Algebra II
