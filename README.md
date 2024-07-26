@@ -130,35 +130,32 @@ My personal grading scheme:
 
 ## What's this whole Bayesian Thing?
 
-Instead of explaining what bayesian statistics is, I'll explain why more and more people in industry and academia are
-taking a Bayesian perspective:
+Instead of explaining what bayesian statistics is, I'll just say why its good:
 
 - it allows for precise *and* interpretable controlling of overfitting
 - *all* assumptions about the scope of a problem can--theoretically--be included in a bayesian model.
 - it gives us intuition for how and why deep neural neural networks (the large, complicated AI models that make the news) work.
 
-I'll expand on that last point: the bayesain framework shows the connection between all statistical inference, learning, 
-and decision theory.
+I'll emphasize on that last point: the bayesain persepctive connects all the various parts of statistics and machine learning.
 
-So what's the catch?
-
-I, and many other bayesians, don't think there is a catch.
-
-But as an educational exercise, I'll pretend there are two "catches" with bayesian statistics:
+Here's some reason's why people have found the bayesian persepective uncomfortable:
 - we need to admit that all predictions requie assumptions.
 - we end up with some gnarly integrals.
 
-The first one isn't actually a problem, its just an exercise in humility.
+The first point an exercise in humility, which can be difficult.
 
-The second one, about the integrals, is more interesting. It used to be a problem before computers and certain algorithms
-(Markov Chain Monte Carlo variants, mostly) were invented and refined. Now, with librairies like pymc or similar, we can consistently wiggle
-our way past the integral computations. There's a lot of depth here, but the point is that we have tools that are just as reliable 
-as those tables of z scores you'll find on the AP stats exam.
+The second one, about the integrals, is interesting. 
+It used to be a problem before computers and certain algorithms--Markov Chain Monte Carlo variants, mostly--were invented and refined. 
+Now, with librairies like pymc or similar, we can consistently wiggle our way past the integral computations. 
+There's a lot of depth here, but the point is that we have tools that are just as reliable as those tables of z scores you'll find on the AP stats exam.
 
 ## Textbook(s) Used
+
+[Bayesian Analysis with Python](https://bap.com.ar/): A pratical guide to probablistic modeling, citation below:
+
 Martin Osvaldo A, Bayesian Analysis with Python. Packt Publishing. 2024. ISBN 978-1-80512-716-1
 
-I used the third additon, and will reference it as BAP3. Buy it, support the author.
+I used the third additon, and will reference it as BAP3. Buy it, support the author. [Github link to code for the book](https://github.com/aloctavodia/BAP3).
 
 I cannot recommend this textbook enough. This course closely follows this textbook in scope, content, pace, and presentation.
 The main difference is that my course breaks BAP3's first two units into 3 units, and my course adds an intro to python unit.
@@ -166,8 +163,23 @@ Later chapters are even more closely aligned.
 
 There's a second textbook I recommend:
 
+[Statistical Rethinking](https://xcelab.net/rm/): A Bayesian Course with Examples in R and Stan, by Richard McElreath.
 
+This textbook moves even slover the BAP3, and gracefully melds practical programming advice, sound mathematical reasoning, and sober scientific ideals  together, all with a dash of humor.
+Buy it, read it, watch his lectures on youtube.
 
-### License
+There is one flaw with McElreath's textbook, and that's his use of R. There's nothing wrong with R, except that it's slow and doesn't scale or integrate well in industry.
+
+### Other Useful Texts
+
+[Bayesian Data Analysis](http://www.stat.columbia.edu/~gelman/book/), the Third Edition, is a classic Bayesian statistical text. 
+Its one of the best places to find mathematical explanations for the things we do in this course 
+
+It assumes much more knowledge than either of the previous textbooks I mentioned, though.
+
+My final recommendation is Kevin Murphy's [Probabilistic Machine Learning](https://probml.github.io/pml-book/) textbooks: An Introduction, and Advanced Topics.
+They contain summaries of the collective human knowledge of ML techniques as of late 2023.
+
+# License
 
 Data Science Fundamentals © 2024 by David Arredondo is licensed under CC BY-NC-SA 4.0 
