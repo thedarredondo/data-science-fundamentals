@@ -1,10 +1,9 @@
 # data-science-fundamentals
-Code and data for the course Data Science Fundamentals: A Bayesian Perspective
+Code, data, and content for the course Data Science Fundamentals: A Bayesian Perspective
 
 ## Goal
 
-The goal of this course is to help people form a partical and inuitive understanding of mathematics behind the modern AI/machine learning wave.
-The focus is not on calculus and linear algebra aspects machine learning/AI, but on the mathematical underpinnings of using a computer to model the real world.
+The goal of this course is to help people form an inuitive understanding the modern AI/machine learning wave, and to learn some practical model building skills along the way.
 I'd love to hear feedback on how to better achieve this goal.
 
 By the end of the course, students will be able to:
@@ -15,13 +14,14 @@ By the end of the course, students will be able to:
 
 - explain the concepts of under/over fitting , and which parts of a model influnces under/over fitting.
 
-If you're familiar with either bayesian statisticals or statistical learning, or using this course to teach yourself, then here's a more concrete teaser: 
+If you're familiar with either bayesian statistics or statistical learning, or using this course to teach yourself, then here's a more concrete teaser: 
 
 - by the end of the course, you will be able to apply the bayesian additive regression tree 
 (BART) model to real world data, explain how BART models connect to neural networks (NN), and explain why BART models perform as well or
 better than NNs on small to medium size data sets.
 
-This is my first time writing a course/curriculum, and I was surprised to learn that course writing is an exercise in what NOT to include. Please let me know if you have any suggestions.
+I am very much an amateur at bayesian techniques, and this is my first time writing a course/curriculum.
+Still, I was surprised to learn that writing this course is an exercise in what NOT to include. Please let me know if you have any suggestions.
 
 ## Prerequisites 
 Hardware:
@@ -34,7 +34,7 @@ Content Knowledge:
 
   - Algebra II
 
-  - The Alg. II prereq. could be relaxed if the material was modified to almost entirely ignore mathematical formula. This course assumes students have decent graphical inuition, and assumes that students find it obvious that graphs can summarize algorithms and functions. 
+This course assumes students have decent graphical inuition, and assumes that students find it obvious that graphs can summarize algorithms and functions. 
 
 No prior coding/progamming experience necessary.
 
@@ -45,7 +45,7 @@ I recommend viewing and manipulating these files in that environment, and having
 of those files in colab as well. Colab is user friendly, and its a standard environment for doing data analysis 
 and machine learning.
 
-The course is broken up into Units. Within each unit there are 4 files, two of which are Answer Key Notes (AK) and Student Facing Notes (SF). AKs 
+The course is broken up into Units. Within each unit there are 4 files, two of which are Notes: an Answer Key (AK) and Student Facing Notes (SF). AKs 
 are written to be viewed by educators and students alike.
 
 SFs have tasks and blanks spots for student answers. Educators are meant to guide students to an answer when doing a task,
@@ -55,18 +55,18 @@ See 'How to Use the Lesson Materials' for more details.
 
 There two other files in a Unit: Exercises, and Projects.
 
-Excercises are either meant to:
+Excercises also have task and blank spots. These are either meant to either:
+walk students through mechanical or conceptual basics that did not fit within the flow of the main lesson notes
+and/or reinforce complex or important skills.
 
-- walk students through mechanical or conceptual basics that did not fit within the flow of the main lesson notes
-- Reinforce complex or important skills.
-
-I have AKs for the most of the Exercises, but I have chosen not to publish them on github. I know this makes it harder to use them in your own practice, 
+I have AKs for the most of the Exercises, but I have chosen not to publish them on github. 
+I know this makes it harder to use them in your own practice, 
 but I think its important to have activites where there's no immediate authority to run to.
 
 Projects are open ended activities where students apply a Unit's content onto a data set of the student's 
-choosing.
-- Students are encouraged to copy code from the AK and Exercises for their project, modifying as needed.
-- All projects have a proposal component, so that the educator can review a student's proposed data set, and guide them towards a workable model.
+choosing. 
+Students are encouraged to copy code from the AK and Exercises for their project, modifying as needed.
+All projects have a proposal component, so that the educator can review a student's proposed data set, and guide them towards a workable model.
 
 ### Break Down of the Units:
 
@@ -105,6 +105,8 @@ choosing.
 - [Not ready] Unit 11: Other Modern Machine Learning Methods. This is an excuse for students to explore ideas from outside the course.
   - Guess at length: 7 total hours 
 
+The "guesses" at the amount of time each unit takes are likely underestimations. I'll update as I teach the course for the first time.
+
 ## How to Use the Lesson Materials
 
 These lessons were built with the "guide on the side" model in mind, as opposed to the "sage on the stage."
@@ -116,17 +118,93 @@ I may force everyone to stop and listen to me lecture--or  maybe I won't. Small 
 When students are ready, they can tackle the exrcises for that unit, in order to check that they understood the key concepts.
 Once the exercises are complete, students can move on to selectiong a data set, getting their project approved, then building their model.
 After their model is complete to their statisfication, they will procede to write up their thought processes and conclusions in the juypter notebook their code lives in.
-Finally, they will prepare to orally prosent their model, their findings, and their journey.
+Finally, they will prepare to orally present their model, their findings, and their journey.
 
 
 ## Suggestions on grading
 
 The main purpose of this course is to get students to think about modeling decisions. I encourage you to create a grading 
-plan that focuses on how students explain and justify there decisions, and rewards creativity, oral, and visual presentation.
+plan that focuses on how students explain and justify their decisions, and rewards creativity, oral, and visual presentation.
 
 My personal grading scheme:
 
 [*I swear I'll do this eventually*]
+
+### Grade Break Down
+
+Overall:
+- 50% for class participation
+- 20% for exercises
+- 30% for projects
+
+#### Class Participation
+
+For context, I see students for two to three 95 minute class period each week.
+
+Students need three "stars" per week to earn a "100" for that week's class participation grade.
+Two stars is an "80", one star is a "70", and 0 stars is a "50"
+Students can earn up to two stars per day. Exception: students are absent; see "Late Policy" below.
+
+Students can earn a star by:
+- asking the instructor (me) a relevant question.
+- asking a classmate a relevant question.
+- explaining a relevant concept to a classmate or to classmates.
+- completing five "tasks" within a single class period.
+- getting their project proposal approved.
+- demonstrating to me that a model they created runs, and is soemwhat reasonable.
+- completeing their project write up.
+
+#### Exercises
+
+As long as all sources are cited, anything goes for exercises. Exercises are mostly for students to evaluate their own understanding.
+
+75% of this grade is completion with reasonable answers.
+
+25% is accuracy
+
+#### Projects
+
+Students are not allowed to look at another student's project, until the project deadline has passed. Failure to comply will result in a 0.
+That said, any hand written or verbal communication about a project is allowed.
+
+Grade breakdown:
+
+- 10% for getting a proposal approved
+
+- 10% for a working model--i.e. the code runs, and produces a relevant model.
+
+- 10% for helpful comments embedded in the code, and for having clean, readable code.
+
+- 10% for thoughtful prior and likelihood selection, with write up in text boxes.
+
+- 10% for writing up the "story" of the model building process--what was tried, what failed, what eventually worked, etc.
+Note that a working model is not necessary to earn full credit here.
+
+- 20% for linking the data, the reality of the context in question, and the model together.
+
+- 20% for including relevant visualizations, and explaining those visualizations.
+
+- 20% for an oral presentation that covers all the above
+
+This adds up to 110%, so it is possible for students to earn extra credit.
+
+Once the dealine for a project has passed, students are given one day to collaborate as much as they like in preperation for oral presentations.
+This also gives me time to grade.
+
+The next day, I will select a random sample of students to present. I'll average those students' presentation performances,
+and apply that as everyone's presentation grade.
+
+I may also decide, after the intial round of grading, to make everyone present, and give them each an individual presentation grade.
+
+#### Late policy
+
+Medical emergincies, with a doctor's note, are the only exceptions to the below policies.
+
+- Projects.
+  - First late project penatly: 0 for the presentation
+  - Second: max grade is a 70, and I will deprioritize grading it.
+  - Third or more: max grade is a 60, and I will deprioritize grading it.
+- Class participation
 
 ## What's this whole Bayesian Thing?
 
