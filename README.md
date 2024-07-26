@@ -3,9 +3,10 @@ Code and data for the course Data Science Fundamentals: A Bayesian Perspective
 
 ## Goal
 
-The goal of this course is to get as many people as possible doing bayesian statistical analysis as soon as possible.
+The goal of this course is to help people form a partical and inuitive understanding of mathematics behind the modern AI/machine learning wave.
+The focus is not on calculus and linear algebra aspects machine learning/AI, but on the mathematical underpinnings of using a computer to model the real world.
 Any inclusions and exclusions in content were made with this goal in mind.
-I'd love to hear feedback on how to better achieve the goal of getting the most people doing bayesian statistics.
+I'd love to hear feedback on how to better achieve this goal.
 
 By the end of the course, students will:
 
