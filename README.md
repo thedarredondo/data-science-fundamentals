@@ -3,7 +3,7 @@ Code, data, and content for the course Data Science Fundamentals: A Bayesian Per
 
 ## Goal
 
-The goal of this course is to help people form an inuitive understanding the modern AI/machine learning wave, and to learn some practical model building skills along the way.
+The goal of this course is to help people form an inuitive understanding of the modern AI/machine learning wave, and to learn some practical model building skills along the way.
 I'd love to hear feedback on how to better achieve this goal.
 
 By the end of the course, students will be able to:
@@ -20,7 +20,7 @@ If you're familiar with either bayesian statistics or statistical learning, or u
 (BART) model to real world data, explain how BART models connect to neural networks (NN), and explain why BART models perform as well or
 better than NNs on small to medium size data sets.
 
-I am very much an amateur at bayesian techniques, and this is my first time writing a course/curriculum.
+I am an amateur at bayesian techniques, and this is my first time writing a course/curriculum.
 Still, I was surprised to learn that writing this course is an exercise in what NOT to include. Please let me know if you have any suggestions.
 
 ## Prerequisites 
@@ -34,7 +34,7 @@ Content Knowledge:
 
   - Algebra II
 
-This course assumes students have decent graphical inuition, and assumes that students find it obvious that graphs can summarize algorithms and functions. 
+This course assumes students have decent graphical inuition, and assumes that students find it obvious that graphs can summarize functions/algorithms. 
 
 No prior coding/progamming experience necessary.
 
@@ -45,28 +45,16 @@ I recommend viewing and manipulating these files in that environment, and having
 of those files in colab as well. Colab is user friendly, and its a standard environment for doing data analysis 
 and machine learning.
 
-The course is broken up into Units. Within each unit there are 4 files, two of which are Notes: an Answer Key (AK) and Student Facing Notes (SF). AKs 
-are written to be viewed by educators and students alike.
+The course is broken up into Units. Within each unit there are 4 files.
 
-SFs have tasks and blanks spots for student answers. Educators are meant to guide students to an answer when doing a task,
-and students are intended to collaborate as much as possible on the tasks in SFs. Its possible students will be unable to 
-reach a resonable or complete answer on their own; teacher's are to then step in with a lecture, with the help of the AK. 
+- Two of those are Notes: an Answer Key (AK) and Student Facing Notes (SF). AKs are written to be viewed by educators and students alike. SFs have tasks and blank spots for student answers.  
 See 'How to Use the Lesson Materials' for more details.
 
-There two other files in a Unit: Exercises, and Projects.
+- Another file is ExercisesSF. Excercises also have task and blank spots. I have AKs for the most of the Exercises, but I have chosen not to publish them on github.
+See 'How to Use the Lesson Materials' for more details.
 
-Excercises also have task and blank spots. These are either meant to either:
-walk students through mechanical or conceptual basics that did not fit within the flow of the main lesson notes
-and/or reinforce complex or important skills.
-
-I have AKs for the most of the Exercises, but I have chosen not to publish them on github. 
-I know this makes it harder to use them in your own practice, 
-but I think its important to have activites where there's no immediate authority to run to.
-
-Projects are open ended activities where students apply a Unit's content onto a data set of the student's 
-choosing. 
-Students are encouraged to copy code from the AK and Exercises for their project, modifying as needed.
-All projects have a proposal component, so that the educator can review a student's proposed data set, and guide them towards a workable model.
+- The last type of file is a Project. Projects are open ended activities where students apply a Unit's content onto a data set of the student's choosing.
+See 'How to Use the Lesson Materials' for more details.
 
 ### Break Down of the Units:
 
@@ -105,6 +93,8 @@ All projects have a proposal component, so that the educator can review a studen
 - [Not ready] Unit 11: Other Modern Machine Learning Methods. This is an excuse for students to explore ideas from outside the course.
   - Guess at length: 7 total hours 
 
+Units 9 through 11 are optional. Unit 11 in particular is more a free for all, end of year project.
+
 The "guesses" at the amount of time each unit takes are likely underestimations. I'll update as I teach the course for the first time.
 
 ## How to Use the Lesson Materials
@@ -120,15 +110,19 @@ Once the exercises are complete, students can move on to selectiong a data set, 
 After their model is complete to their statisfication, they will procede to write up their thought processes and conclusions in the juypter notebook their code lives in.
 Finally, they will prepare to orally present their model, their findings, and their journey.
 
+All exercises and projects are available to students from day one. Exercises and projects have a deadline per unit. 
+There will be a day of presentation prep while I preliminarliy grade student projects, and a day of presentations. 
+The Unit ends when the last presentation ends.
+
 
 ## Suggestions on grading
 
 The main purpose of this course is to get students to think about modeling decisions. I encourage you to create a grading 
-plan that focuses on how students explain and justify their decisions, and rewards creativity, oral, and visual presentation.
+plan that focuses on how students 
+- explain and justify their decisions
+- rewards creativity in written, oral, and visual presentation.
 
 My personal grading scheme:
-
-[*I swear I'll do this eventually*]
 
 ### Grade Break Down
 
@@ -156,11 +150,13 @@ Students can earn a star by:
 
 #### Exercises
 
-As long as all sources are cited, anything goes for exercises. Exercises are mostly for students to evaluate their own understanding.
+As long as all sources are cited, anything goes for exercises. My notes do not ever need to be cited. Exercises are mostly for students to evaluate their own understanding.
 
-75% of this grade is completion with reasonable answers.
+80% of this grade is completion with reasonable answers.
 
 25% is accuracy
+
+This adds up to 105%, so its possible for students to earn extra credit
 
 #### Projects
 
@@ -175,12 +171,12 @@ Grade breakdown:
 
 - 10% for helpful comments embedded in the code, and for having clean, readable code.
 
-- 10% for thoughtful prior and likelihood selection, with write up in text boxes.
+- 10% for thoughtful prior, likelihood, and model selection, with writeen explanation of that selection.
 
 - 10% for writing up the "story" of the model building process--what was tried, what failed, what eventually worked, etc.
 Note that a working model is not necessary to earn full credit here.
 
-- 20% for linking the data, the reality of the context in question, and the model together.
+- 20% for linking the data, the reality of the context in question, and the model together, with an appropriate conclusion
 
 - 20% for including relevant visualizations, and explaining those visualizations.
 
@@ -196,15 +192,21 @@ and apply that as everyone's presentation grade.
 
 I may also decide, after the intial round of grading, to make everyone present, and give them each an individual presentation grade.
 
-#### Late policy
+#### Late policy/Absence Policy
 
 Medical emergincies, with a doctor's note, are the only exceptions to the below policies.
 
-- Projects.
-  - First late project penatly: 0 for the presentation
+- Projects:
+  - First late project penatly: 0 for the presentation grade, so max grade is a 90.
   - Second: max grade is a 70, and I will deprioritize grading it.
   - Third or more: max grade is a 60, and I will deprioritize grading it.
-- Class participation
+- Class participation:
+  - Lowest class participation grade per 9 week grading period is dropped. This forgives students for having a bad week.
+  - If students only see me one time in a week, for any reason, they may earn the full three stars that day.
+  - If students miss a full week, it counts as their "dropped grade" for that nine weeks
+    - The second time and beyond a student misses a full week in a 9 week period, their class participation grade will be the same as their lowest grade on my gradebook.
+- Exercises:
+  - Late exercies will be given a grade of 40. Why? Students have an entire unit to complete them, they can use any resource so long as they cite it, and they are mostly a completion grade.
 
 ## What's this whole Bayesian Thing?
 
@@ -220,7 +222,7 @@ Here's some reason's why people have found the bayesian persepective uncomfortab
 - we need to admit that all predictions requie assumptions.
 - we end up with some gnarly integrals.
 
-The first point an exercise in humility, which can be difficult.
+The first point an exercise in humility--which can be difficult, but rewarding.
 
 The second one, about the integrals, is interesting. 
 It used to be a problem before computers and certain algorithms--Markov Chain Monte Carlo variants, mostly--were invented and refined. 
