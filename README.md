@@ -3,7 +3,7 @@ Code, data, and content for the course Data Science Fundamentals: A Bayesian Per
 
 ## Goal
 
-The goal of this course is to help people form an inuitive understanding of the modern AI/machine learning wave, and to learn some practical model building skills along the way.
+Form an inuitive understanding of the modern AI/machine learning wave, and learn some practical model building skills along the way.
 I'd love to hear feedback on how to better achieve this goal.
 
 By the end of the course, students will be able to:
@@ -14,14 +14,10 @@ By the end of the course, students will be able to:
 
 - explain the concepts of under/over fitting , and which parts of a model influnces under/over fitting.
 
-If you're familiar with either bayesian statistics or statistical learning, or using this course to teach yourself, then here's a more concrete teaser: 
+Additionally, students will gain an understanding of why Neural Networks perform so well, by exploring the concepts of priors, likelihoods, and Gaussian Processes
 
-- by the end of the course, you will be able to apply the bayesian additive regression tree 
-(BART) model to real world data, explain how BART models connect to neural networks (NN), and explain why BART models perform as well or
-better than NNs on small to medium size data sets.
-
-I am an amateur at bayesian techniques, and this is my first time writing a course/curriculum.
-Still, I was surprised to learn that writing this course is an exercise in what NOT to include. Please let me know if you have any suggestions.
+I am an amateur at bayesian techniques, and this is my first time writing a new course/curriculum.
+Please let me know if you have any suggestions.
 
 ## Prerequisites 
 Hardware:
@@ -48,12 +44,11 @@ and machine learning.
 The course is broken up into Units. Within each unit there are 4 files.
 
 - Two of those are Notes: an Answer Key (AK) and Student Facing Notes (SF). AKs are written to be viewed by educators and students alike. SFs have tasks and blank spots for student answers.  
-See 'How to Use the Lesson Materials' for more details.
 
 - Another file is ExercisesSF. Excercises also have tasks and blank spots. I have AKs for the most of the Exercises, but I have chosen not to publish them on github.
-See 'How to Use the Lesson Materials' for more details.
 
 - The last type of file is a Project. Projects are open ended activities where students apply a Unit's content onto a data set of the student's choosing.
+
 See 'How to Use the Lesson Materials' for more details.
 
 ### Break Down of the Units:
@@ -78,7 +73,7 @@ See 'How to Use the Lesson Materials' for more details.
 - Unit 6: Linear Models (multiple predictors). Linear models, except more than 1 predictor. Under/Overfitting, model/variable selection, and visualizing high dimensional models.
   - Guess at length: 3.5 hours class time, 1.5 hours for exercises, and 5 hours for the project. 10 total hours
 
-- Unit 7: Fitting Curves. Polynomial regression, b splines, and Gaussian Processes. Also, how all those relate on a continuum, and discussion on where Neural Networks lie on that continuum.
+- Unit 7: Fitting Curves. Polynomial regression, b splines, and Gaussian Processes. Also: how all those relate on a continuum, and discussion on where Neural Networks lie on that continuum.
   - Guess at length: 3 hours class time, 1 hour for exercises, and 4 hours for the project. 8 total hours
 
 - [Not ready] Unit 8: Bayesian Additive Regression Trees (BART).
@@ -90,16 +85,16 @@ See 'How to Use the Lesson Materials' for more details.
 - [Not ready] Unit 10: An Intro to Markov Chain Monte Carlo. Walk through a Metropolis-Hastings example, More Advanted model Diagonstics.
   - Guess at length: 1.5 total hours
 
-- [Not ready] Unit 11: Other Modern Machine Learning Methods. This is an excuse for students to explore ideas from outside the course.
+- [Not ready] Unit 11+: Other Modern Machine Learning Methods. This might be multiple units. We will introduce Neural Networks here.
   - Guess at length: ? total hours 
 
-The libraries for Unit 8 aren't viable on Colab as of this writing (7/30/2024).
-Units 9 through 11 are optional. Unit 9 has some useful techniques and concepts, but I probably wouldn't want to devote a whole project to it. 
-Unit 10 would really just be a class period covering the basic concepts of MCMC and related ideas.
+The libraries for Unit 8 aren't viable on Colab as of this writing (7/30/2024). This is a shame, as BART models are super useful and convenient.
+Units 9 is optional. It contains useful techniques and concepts, but I probably wouldn't want to devote a whole project to it. 
+Unit 10 would really just be a class period or two covering the basic concepts of MCMC and related ideas. Also no project.
 
-Unit 11 is a wild card. I could make this anywhere from a project that simply removes the restrictions on what libraries to use,
-all the way to several small units on the various machine learning domains.
-Maybe cover nerual networks here in depth here?
+Unit 11 is a wild card. I could make this anywhere from a final project without any restrictions on what methods students can use,
+all the way to several small units on the various machine learning topics.
+I'll definitely cover nerural networks here; the question is: in how much depth and breath?
 
 ## How to Use the Lesson Materials
 
@@ -122,8 +117,8 @@ The Unit ends when the last presentation ends.
 ## Suggestions on grading
 
 The main purpose of this course is to get students to think about modeling decisions. I encourage you to create a grading 
-plan that focuses on how students 
-- explain and justify their decisions
+plan that
+- focues on how students explain and justify their decisions
 - rewards creativity in written, oral, and visual presentation.
 
 My personal grading scheme:
@@ -154,7 +149,7 @@ Students can earn a star by:
 
 #### Exercises
 
-As long as all sources are cited, anything goes for exercises. My notes do not ever need to be cited. Exercises are mostly for students to evaluate their own understanding.
+As long as all sources are cited, anything goes for exercises. On exercises, my notes do not need to be cited. Exercises are mostly for students to evaluate their own understanding.
 
 80% of this grade is completion with reasonable answers.
 
@@ -165,7 +160,7 @@ This adds up to 105%, so its possible for students to earn extra credit
 #### Projects
 
 Students are not allowed to look at another student's project, until the project deadline has passed. Failure to comply will result in a 0.
-That said, any hand written or verbal communication about a project is allowed.
+That said, any hand written or verbal communication about a project is allowed. On projects, my notes do not need to be cited.
 
 Grade breakdown:
 
@@ -221,9 +216,9 @@ Instead of explaining what bayesian statistics is, I'll just say why its good:
 - *all* assumptions about the scope of a problem can--theoretically--be included in a bayesian model.
 - it gives us intuition for how and why deep neural neural networks (the large, complicated AI models that make the news) work.
 
-I'll emphasize on that last point: the bayesain persepctive connects all the various parts of statistics and machine learning.
+I'll emphasize that last point: the bayesain persepctive connects all the various parts of statistics and machine learning.
 
-Here's some reason's why people have found the bayesian persepective uncomfortable:
+Here are some reason's why people have found the bayesian persepective uncomfortable:
 - we need to admit that all predictions requie assumptions.
 - we end up with some gnarly integrals.
 
@@ -243,18 +238,19 @@ Martin Osvaldo A, Bayesian Analysis with Python. Packt Publishing. 2024. ISBN 97
 I used the third additon, and will reference it as BAP3. Buy it, support the author. [Github link to code for the book](https://github.com/aloctavodia/BAP3).
 
 I cannot recommend this textbook enough. This course closely follows this textbook in scope, content, pace, and presentation.
-The main difference is that my course breaks BAP3's first two units into 3 units, my course adds an intro to python unit, and changes the order and scope of later units.
+The main differences: my course breaks BAP3's first two units into 3 units, my course adds an intro to python unit, changes the order and scope of later units, and leaves out content 
+(the left out content is mostly stuff to do with binary decision making, such as bayes factor, bayesian p values, ROPE, etc.).
 
 There's a second textbook I recommend:
 
 [Statistical Rethinking](https://xcelab.net/rm/): A Bayesian Course with Examples in R and Stan, by Richard McElreath.
 
-This textbook moves even slover the BAP3, and gracefully melds practical programming advice, sound mathematical reasoning, and sober scientific ideals together, all with a dash of humor.
-Buy it, read it, watch his lectures on youtube.
+This textbook moves even slower the BAP3, and gracefully melds practical programming advice, sound mathematical reasoning, and sober scientific ideals together, all with a dash of humor.
+Buy it, read it, **watch his lectures on youtube**.
 
 There is one flaw with McElreath's textbook, and that's his use of R. 
-R is pefect for any programmer with a solid grounding in multivariable calculus and matrix algebra, because it encourages that notation and thinking.
-That sounds intimidating, but its not actually that much harder to use than R. It is however, much harder to debug.
+R is perfect for any programmer with a solid grounding in multivariable calculus and matrix algebra, because it encourages mathematical thinking.
+That may sound intimidating, but R is not actually that much harder to use than python. In fact they are quite similar. Python is much easier to debug though.
 
 ### Other Useful Texts
 
