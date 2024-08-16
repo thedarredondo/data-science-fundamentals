@@ -202,11 +202,9 @@ Medical emergincies, with a doctor's note, are the only exceptions to the below 
   - Third or more: max grade is a 60, and I will deprioritize grading it.
 - Class participation:
   - Lowest class participation grade per 9 week grading period is dropped. This forgives students for having a bad week.
-  - If students only see me one time in a week, for any reason, they can earn up to four stars that day.
-  - If students miss a full week, it counts as their "dropped grade" for that nine weeks
-    - The second time and beyond a student misses a full week in a 9 week period, their class participation grade will be the same as their lowest grade on my gradebook.
+  - If students only see me one time in a week, for any reason, they can earn up to four stars that week.
 - Exercises:
-  - Late exercises will be given a grade of 40. Why? Students have an entire unit to complete them, they can use any resource so long as they cite it, and they are mostly a completion grade.
+  - Late exercises will be given a grade of 40. 
 
 ## What's this whole Bayesian Thing?
 
