@@ -37,11 +37,10 @@ No prior coding/progamming experience necessary.
 ## Structure of the Lesson Materials
 
 All the files are jupyter notebooks, created within Google's [Colab environment](https://colab.research.google.com/).
-I recommend viewing and manipulating these files in that environment, and having your students manipulate copies 
-of those files in colab as well. Colab is user friendly, and its a standard environment for doing data analysis 
+Colab is user friendly, and its a standard environment for doing data analysis 
 and machine learning.
 
-The course is broken up into Units. Within each unit there are 4 files.
+The course is broken up into units. Within each unit there are 4 files.
 
 - Two of those are Notes: an Answer Key (AK) and Student Facing Notes (SF). AKs are written to be viewed by educators and students alike. SFs have tasks and blank spots for student answers.  
 
@@ -99,19 +98,10 @@ Unit 10 would really just be a class period or two covering the basic concepts o
 ## How to Use the Lesson Materials
 
 These lessons were built with the "guide on the side" model in mind, as opposed to the "sage on the stage."
+The materials are self contained and suitable for self study. The intrsuctor's role is more that of a consultant.
+I suggest doing the NotesSF, reading NotesAK, doing ExercisesSf, and doing the unit's project. I suggest only grading the exercises and project.
 
-Students are intended to work in groups through the student facing notes, running code and completing tasks as they go along.
-If they get stuck, they can either ask the educator for assitance, or consult the answer key.
-I may force everyone to stop and listen to me lecture--or  maybe I won't. Small group and one-on-one conversations may be enough.
-
-When students are ready, they can tackle the exrcises for that unit, in order to check that they understood the key concepts.
-Once the exercises are complete, students can move on to selectiong a data set, getting their project approved, then building their model.
-After their model is complete to their statisfication, they will procede to write up their thought processes and conclusions in the juypter notebook their code lives in.
-Finally, they will prepare to orally present their model, their findings, and their journey.
-
-All exercises and projects are available to students from day one. Exercises and projects have a deadline per unit. 
-There will be a day of presentation prep while I preliminarliy grade student projects, and a day of presentations. 
-The Unit ends when the last presentation ends.
+Presentations for the projects have gone well, and they have been great oppurtunites to reinfornce key concepts or warn about missteps.
 
 
 ## Suggestions on grading
@@ -132,30 +122,21 @@ Overall:
 
 #### Class Participation
 
-For context, I see students for two to three 95 minute class period each week.
-
-Students need three "stars" per week to earn a "100" for that week's class participation grade.
-Four stars is a 105, so it is possible to earn extra credit. Two stars is an "80", one star is a "70", and 0 stars is a "50"
-Students can earn up to two stars per day. Exception: students are absent; see "Late Policy" below.
-
-Students can earn a star by:
+Students can earn participation credit by:
 - asking the instructor (me) a relevant question.
 - asking a classmate a relevant question.
 - explaining a relevant concept to a classmate or to classmates.
-- completing five "tasks" within a single class period.
-- getting their project proposal approved.
-- demonstrating to me that a model they created runs, and is soemwhat reasonable.
-- completeing their project write up.
+- arguing about data science
+- completing tasks from the notes or exercises
+- working on a project
 
 #### Exercises
 
 As long as all sources are cited, anything goes for exercises. On exercises, my notes do not need to be cited. Exercises are mostly for students to evaluate their own understanding.
 
-80% of this grade is completion with reasonable answers.
+~66% of this grade is completion (given reasonable answers).
 
-25% is accuracy
-
-This adds up to 105%, so its possible for students to earn extra credit
+~33% is accuracy
 
 #### Projects
 
@@ -170,7 +151,7 @@ Grade breakdown:
 
 - 10% for helpful comments embedded in the code, and for having clean, readable code.
 
-- 10% for thoughtful prior, likelihood, and model selection, with writeen explanation of that selection.
+- 10% for thoughtful prior, likelihood, and model selection, with written justification.
 
 - 10% for writing up the "story" of the model building process--what was tried, what failed, what eventually worked, etc.
 Note that a working model is not necessary to earn full credit here.
@@ -180,29 +161,22 @@ Its possible to get the majority of the credit here without a fully working mode
 
 - 20% for including relevant visualizations, and explaining those visualizations.
 
-- 20% for an oral presentation that covers all the above
+- 10% for an oral presentation that covers all the above
 
-This adds up to 110%, so it is possible for students to earn extra credit.
-
-Once the dealine for a project has passed, students are given one day to collaborate as much as they like in preperation for oral presentations.
+Once the dealine for a project has passed, I give students one day to collaborate as much as they like in preperation for oral presentations.
 This also gives me time to grade.
 
-The next day, I will select a random sample of students to present. I'll average those students' presentation performances,
+The next day, I select a random sample of students to present. I'll average those students' presentation performances,
 and apply that average as everyone's presentation grade.
 
-I may also decide, after the intial round of grading, to make everyone present, and give them each an individual presentation grade.
-
 #### Late policy/Absence Policy
-
-Medical emergincies, with a doctor's note, are the only exceptions to the below policies.
 
 - Projects:
   - First late project penatly: max grade of a 90; 0 for the presentation grade.
   - Second: max grade is a 70, and I will deprioritize grading it.
   - Third or more: max grade is a 60, and I will deprioritize grading it.
 - Class participation:
-  - Lowest class participation grade per 9 week grading period is dropped. This forgives students for having a bad week.
-  - If students only see me one time in a week, for any reason, they can earn up to four stars that week.
+  - Absent students are exempt from that week's participation grade.
 - Exercises:
   - Late exercises will be given a grade of 40. 
 
@@ -228,27 +202,24 @@ Now, with librairies like pymc or similar, we can consistently wiggle our way pa
 There's a lot of depth here, but the point is that we have tools that are just as reliable as those tables of z scores you'll find on the AP stats exam.
 
 ## Textbook(s) Used
+This testbook serves as teh backbone of the course
 
 [Bayesian Analysis with Python](https://bap.com.ar/): A pratical guide to probablistic modeling, citation below:
 
 Martin Osvaldo A, Bayesian Analysis with Python. Packt Publishing. 2024. ISBN 978-1-80512-716-1
 
-I used the third additon, and will reference it as BAP3. Buy it, support the author. [Github link to code for the book](https://github.com/aloctavodia/BAP3).
+Buy it, support the author. I used the third additon, and will reference it as BAP3.  [Github link to code for the book](https://github.com/aloctavodia/BAP3).
 
-I cannot recommend this textbook enough. This course closely follows this textbook in scope, content, pace, and presentation.
+This course closely follows this textbook in scope, content, pace, and presentation.
 The main differences: my course breaks BAP3's first two units into 3 units, my course adds an intro to python unit, changes the order and scope of later units, and leaves out content 
-(the left out content is mostly stuff to do with binary decision making, such as bayes factor, bayesian p values, ROPE, etc.).
+(the left out content is mostly stuff to do with binary and discrete decision making, such as bayes factor, bayesian p values, ROPE, etc.).
 
-There's a second textbook I recommend:
+There's a second textbook I recommend, which serves as the soul of the course:
 
 [Statistical Rethinking](https://xcelab.net/rm/): A Bayesian Course with Examples in R and Stan, by Richard McElreath.
 
-This textbook moves even slower the BAP3, and gracefully melds practical programming advice, sound mathematical reasoning, and sober scientific ideals together, all with a dash of humor.
+It moves even slower the BAP3, and gracefully melds practical programming advice, sound mathematical reasoning, and sober scientific ideals together, all with a dash of humor.
 Buy it, read it, **watch his lectures on youtube**.
-
-There is one flaw with McElreath's textbook, and that's his use of R. 
-R is perfect for any programmer with a solid grounding in multivariable calculus and matrix algebra, because it encourages mathematical thinking.
-That may sound intimidating, but R is not actually that much harder to use than python. In fact they are quite similar. Python is much easier to debug though.
 
 ### Other Useful Texts
 
@@ -262,4 +233,4 @@ They contain summaries of the collective human knowledge of Machine Learning tec
 
 # License
 
-Data Science Fundamentals © 2024 by David Arredondo is licensed under CC BY-NC-SA 4.0 
+Data Science Fundamentals © 2024 by David Arredondo is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 
