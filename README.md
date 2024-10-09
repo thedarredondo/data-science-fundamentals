@@ -4,7 +4,6 @@ Code, data, and content for the course Data Science Fundamentals: A Bayesian Per
 ## Goal
 
 Form an inuitive understanding of the modern AI/machine learning wave, and learn some practical model building skills along the way.
-I'd love to hear feedback on how to better achieve this goal.
 
 By the end of the course, students will be able to:
 
@@ -42,11 +41,11 @@ and machine learning.
 
 The course is broken up into units. Within each unit there are 4 files.
 
-- Two of those are Notes: an Answer Key (AK) and Student Facing Notes (SF). AKs are written to be viewed by educators and students alike. SFs have tasks and blank spots for student answers.  
+- Notes. There are two per unit: an Answer Key (AK) and Student Facing Notes (SF). AKs are written to be viewed by educators and students alike. SFs have tasks and blank spots for student answers.  
 
-- Another file is ExercisesSF. Excercises also have tasks and blank spots. I have AKs for the most of the Exercises, but I have chosen not to publish them on github.
+- ExercisesSF. Excercises also have tasks and blank spots. I have AKs for the most of the Exercises, but I have chosen not to publish them on github.
 
-- The last type of file is a Project. Projects are open ended activities where students apply a Unit's content onto a data set of the student's choosing.
+- Project. Projects are open ended activities where students apply a Unit's content onto a data set of the student's choosing.
 
 See 'How to Use the Lesson Materials' for more details.
 
@@ -55,7 +54,7 @@ See 'How to Use the Lesson Materials' for more details.
 - Unit 1: Crash Course in Python. I only cover enough python to give students the ability to use numpy arrays and pandas dataframes, and read a for loop.
   - Approx. length: 3 hours of class time for the notes and 1 hour for the exercises. Not project this unit. 4 total hours; much shorter if this isn't your first coding class.
 
-- Unit 2: Intro to Probability. I blend probability and statsitcs together in a single example. This unit assumes 0 previous exposure to probability/statistics.
+- Unit 2: Intro to Probability. I blend probability and statsitcs together in a single example. This unit assumes no previous exposure to probability/statistics.
   - we also conlude by buidling a model with pymc, although students are not expected to understand that model yet.
   - Approx. length: 6 hours for the notes. 2.5 hours for exercises, and 3.5 hours for the project. 12 total hours
 
@@ -67,7 +66,7 @@ See 'How to Use the Lesson Materials' for more details.
   - Guess at length: 4 hours for the notes, 3 hours for exercises, and 3.5 hours for the project. 10.5 total hours
 
 - Unit 5: Linear Models (1 predictor). How to use one set of data to predict another, and all the perils therein. We cover a lot of single variable generlized linear model concepts.
-  - Guess at length: 6 hours notes, 3 hours for exercies, and 5 hours for the project. 14 total hours.
+  - Guess at length: 6 hours notes, 4 hours for exercies, and 5 hours for the project. 15 total hours.
 
 - Unit 6: Linear Models (multiple predictors). Linear models, except more than 1 predictor. Under/Overfitting, model/variable selection, and visualizing high dimensional models.
   - Guess at length: 3.5 hours class time, 1.5 hours for exercises, and 5 hours for the project. 10 total hours
@@ -88,7 +87,7 @@ See 'How to Use the Lesson Materials' for more details.
 
 - [Not ready] Unit 12: Priors and neural networks. Introduces dropout, CNN, and transformers as priors.
 
-- [Not ready] Unit 13: Other Modern Machine Learning Methods. This might be multiple units. We will introduce Neural Networks here.
+- [Not ready] Unit 13: Other Modern Machine Learning Methods. I've to cover a modern implementation of k-means called UMAP here, but we'll see if there's time.
   - Guess at length: ? total hours 
 
 Units 9 is optional. It contains useful techniques and concepts, but I probably wouldn't want to devote a whole project to it. 
@@ -99,19 +98,16 @@ Unit 10 would really just be a class period or two covering the basic concepts o
 
 These lessons were built with the "guide on the side" model in mind, as opposed to the "sage on the stage."
 The materials are self contained and suitable for self study. The intrsuctor's role is more that of a consultant.
-I suggest doing the NotesSF, reading NotesAK, doing ExercisesSf, and doing the unit's project. I suggest only grading the exercises and project.
+I suggest doing the NotesSF, then reading NotesAK, then doing ExercisesSf, and finally doing the unit's project. I only grading the exercises and project.
 
 Presentations for the projects have gone well, and they have been great oppurtunites to reinfornce key concepts or warn about missteps.
 
 
 ## Suggestions on grading
 
-The main purpose of this course is to get students to think about modeling decisions. I encourage you to create a grading 
-plan that
+I created a scheme that:
 - focues on how students explain and justify their decisions
 - rewards creativity in written, oral, and visual presentation.
-
-My personal grading scheme:
 
 ### Grade Break Down
 
@@ -123,7 +119,7 @@ Overall:
 #### Class Participation
 
 Students can earn participation credit by:
-- asking the instructor (me) a relevant question.
+- asking the instructor a relevant question.
 - asking a classmate a relevant question.
 - explaining a relevant concept to a classmate or to classmates.
 - arguing about data science
@@ -166,7 +162,7 @@ Its possible to get the majority of the credit here without a fully working mode
 Once the dealine for a project has passed, I give students one day to collaborate as much as they like in preperation for oral presentations.
 This also gives me time to grade.
 
-The next day, I select a random sample of students to present. I'll average those students' presentation performances,
+The next day, I select a random sample of students to present. I average those students' presentation performances,
 and apply that average as everyone's presentation grade.
 
 #### Late policy/Absence Policy
