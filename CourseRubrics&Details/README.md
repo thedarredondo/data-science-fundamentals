@@ -1,4 +1,77 @@
-### Break Down of the Units:
+## Suggestions on grading
+
+I created a scheme that:
+- focues on how students explain and justify their decisions
+- rewards creativity in written, oral, and visual presentation.
+
+### Grade Break Down
+
+Overall:
+- 50% for class participation
+- 20% for exercises
+- 30% for projects
+
+#### Class Participation
+
+Students can earn participation credit by:
+- asking the instructor a relevant question.
+- asking a classmate a relevant question.
+- explaining a relevant concept to a classmate or to classmates.
+- arguing about data science
+- completing tasks from the notes or exercises
+- working on a project
+
+#### Exercises
+
+As long as all sources are cited, anything goes for exercises. On exercises, my notes do not need to be cited. Exercises are mostly for students to evaluate their own understanding.
+
+~66% of this grade is completion (given reasonable answers).
+
+~33% is accuracy
+
+#### Projects
+
+Students are not allowed to look at another student's project, until the project deadline has passed. Failure to comply will result in a 0.
+That said, any hand written or verbal communication about a project is allowed. On projects, my notes do not need to be cited.
+
+Grade breakdown:
+
+- 10% for getting a proposal approved
+
+- 10% for a working model--i.e. the code runs, and produces a relevant model.
+
+- 10% for helpful comments embedded in the code, and for having clean, readable code.
+
+- 10% for thoughtful prior, likelihood, and model selection, with written justification.
+
+- 10% for writing up the "story" of the model building process--what was tried, what failed, what eventually worked, etc.
+Note that a working model is not necessary to earn full credit here.
+
+- 20% for linking the data, the reality of the context in question, and the model together, with an appropriate conclusion.
+Its possible to get the majority of the credit here without a fully working model.
+
+- 20% for including relevant visualizations, and explaining those visualizations.
+
+- 10% for an oral presentation that covers all the above
+
+Once the dealine for a project has passed, I give students one day to collaborate as much as they like in preperation for oral presentations.
+This also gives me time to grade.
+
+The next day, I select a random sample of students to present. I average those students' presentation performances,
+and apply that average as everyone's presentation grade.
+
+#### Late policy/Absence Policy
+
+- Projects:
+  - First late project penatly: max grade of a 90; 0 for the presentation grade.
+  - Second: max grade is a 70, and I will deprioritize grading it.
+  - Third or more: max grade is a 60, and I will deprioritize grading it.
+- Class participation:
+  - Absent students are exempt from that week's participation grade.
+- Exercises:
+  - Late exercises will be given a grade of 40. 
+
+## Break Down of the Units:
 
 - Unit 1: Crash Course in Python. I only cover enough python to give students the ability to use numpy arrays and pandas dataframes, and read a for loop.
   - Approx. length: 3 hours of class time for the notes and 1 hour for the exercises. Not project this unit. 4 total hours; much shorter if this isn't your first coding class.
