@@ -54,7 +54,7 @@ See the folder 'CourseRubrics&Details' for more a break down of the units and my
 Instead of explaining what bayesian statistics is, I'll just say why its good:
 
 - it allows for precise *and* interpretable controlling of overfitting
-- *all* assumptions about the scope of a problem can--theoretically--be included in a bayesian model.
+- *all* assumptions about the scope of a problem can--theoretically--be included in a bayesian(/causal) model.
 - it gives us intuition for how and why deep neural neural networks (the large, complicated AI models that make the news) work.
 
 I'll emphasize that last point: the bayesain persepctive connects all the various parts of statistics and machine learning.
@@ -68,10 +68,10 @@ The first point an exercise in humility--which can be difficult, but rewarding.
 The second one, about the integrals, is interesting. 
 It used to be a problem before computers and certain algorithms--Markov Chain Monte Carlo variants, mostly--were invented and refined. 
 Now, with librairies like pymc or similar, we can consistently wiggle our way past the integral computations. 
-There's a lot of depth here, but the point is that we have tools that are just as reliable as those tables of z scores you'll find on the AP stats exam.
+There's a lot of depth here, but the point is that we have tools that are just as reliable as those tables of normal z scores you'll find on the AP stats exam.
 
 ## Textbook(s) Used
-This testbook serves as teh backbone of the course
+This textbook serves as the backbone of the course
 
 [Bayesian Analysis with Python](https://bap.com.ar/): A pratical guide to probablistic modeling, citation below:
 
@@ -98,7 +98,7 @@ Its one of the best places to find mathematical explanations for the things we d
 It assumes much more knowledge than either of the previous textbooks I mentioned, though.
 
 My final recommendation is Kevin Murphy's [Probabilistic Machine Learning](https://probml.github.io/pml-book/) textbooks: An Introduction, and Advanced Topics.
-They contain summaries of the collective human knowledge of Machine Learning techniques as of late 2023.
+It is an attempt to summarize the collective human knowledge of Machine Learning techniques as of late 2023.
 
 # License
 
