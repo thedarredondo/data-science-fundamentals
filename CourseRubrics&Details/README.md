@@ -69,7 +69,7 @@ and apply that average as everyone's presentation grade.
 - Class participation:
   - Absent students are exempt from that week's participation grade.
 - Exercises:
-  - Late exercises will be given a grade of 40. 
+  - Late exercises will be given a grade of 50. 
 
 ## Break Down of the Units:
 
@@ -88,25 +88,24 @@ and apply that average as everyone's presentation grade.
   - Guess at length: 4 hours for the notes, 3 hours for exercises, and 3.5 hours for the project. 10.5 total hours
 
 - Unit 5: Linear Models (1 predictor). How to use one set of data to predict another, and all the perils therein. We cover a lot of single variable generlized linear model concepts.
-  - Guess at length: 6 hours notes, 4 hours for exercies, and 5 hours for the project. 15 total hours.
+  - Guess at length: 3 hours notes, 3 hours for exercies, and 5 hours for the project. 11 total hours.
 
 - Unit 6: Linear Models (multiple predictors). Linear models, except more than 1 predictor. Under/Overfitting, model/variable selection, and visualizing high dimensional models.
-  - Guess at length: 3.5 hours class time, 1.5 hours for exercises, and 5 hours for the project. 10 total hours
+  - Guess at length: 3 hours notes, 3 hours for exercises, and 4 hours for the project. 10 total hours
 
 - Unit 7: Fitting Curves. Polynomial regression, b splines, and Gaussian Processes. Also: how all those relate on a continuum, and discussion on where Neural Networks lie on that continuum.
-  - Guess at length: 3 hours class time, 1 hour for exercises, and 4 hours for the project. 8 total hours
+  - Guess at length: 3 hours nots, 1 hour for exercises, and 4 hours for the project. 8 total hours
 
-- [Sorta ready] Unit 8: Bayesian Additive Regression Trees (BART). A bayesianification of random forests. I'll cover probabilistic decison trees and pure random forests as well.
+- Unit 8: Bayesian Additive Regression Trees (BART). A bayesianification of random forests. I cover probabilistic decison trees, explain teh concept of random forests, and then jump into practical examples
   - Guess at length: 8 hours total
+ 
+- [Not ready] Unit 9: Causal Inference and GLMs. 
 
 - [Not ready] Unit 10: The Multi-Layer Perceptron. Introduces MLPs as a speedy approximation of a guassian process.
 
 - [Not ready] Unit 11: Priors and neural networks. Introduces dropout, CNN, and transformers as priors.
 
 - maybe I just have us play with one of those mini LLMs google published recently?
-- Causual Inference?? I probably need to alter at least part of every part of the course to have this infused throughout. But another solution would to make a unit introducing the idea.
 
 - [Not ready] Unit 12: Unsuprevised learning. PCA and UMAP?
   - Guess at length: ? total hours 
-
-Units 9 is optional. It contains useful techniques and concepts, but I probably wouldn't want to devote a whole project to it. 
