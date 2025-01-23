@@ -3,7 +3,7 @@ Code, data, and content for the course Data Science Fundamentals: A Bayesian Per
 
 ## Goal
 
-Form an inuitive understanding of the modern AI/machine learning wave, and learn some practical model building skills along the way.
+Form an intuitive understanding of the modern machine learning/AI wave, and learn some practical model building skills along the way.
 
 By the end of the course, students will be able to:
 
@@ -11,7 +11,7 @@ By the end of the course, students will be able to:
 
 - explain why all models require assumptions/context.
 
-- explain the concepts of under/over fitting , and which parts of a model influnces under/over fitting.
+- Create and interpret bayesian and causal models.
 
 Additionally, students will gain an understanding of why neural networks perform so well, by exploring the concepts of priors, likelihoods, and Gaussian Processes
 
