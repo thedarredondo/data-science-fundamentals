@@ -41,20 +41,21 @@ and machine learning.
 
 The course is broken up into units. Within each unit there are 4 files.
 
-- Notes. There are two per unit: an Answer Key (AK) and Student Facing Notes (SF). AKs are written to be viewed by educators and students alike. SFs have tasks and blank spots for student answers.  
+- Notes. There are two per unit: an Answer Key (AK) and Student Facing Notes (SF). SFs have tasks for students. AKs have answers to the tasks (surprise)
+and are written to be viewed by educators and students alike.   
 
-- ExercisesSF. Excercises also have tasks and blank spots. I have AKs for the most of the Exercises, but I have chosen not to publish them on github.
+- ExercisesSF. Excercises also have tasks. I have AKs for the most of the Exercises, but I have chosen to leave them unpublished.
 
 - Project. Projects are open ended activities where students apply a Unit's content onto a data set of the student's choosing.
 
-See the folder 'CourseRubrics&Details' for more a break down of the units and my personal grading scheme.
+See the folder 'CourseRubrics&Details' for a more thorough break down of the units and my personal grading scheme.
 
 ## What's this whole Bayesian Thing?
 
 Instead of explaining what bayesian statistics is, I'll just say why its good:
 
-- it allows for precise *and* interpretable controlling of overfitting
-- *all* assumptions about the scope of a problem can--theoretically--be included in a bayesian(/causal) model.
+- *all* assumptions about the scope of a problem can--theoretically--be included in a bayesian causal model.
+- all parts of a bayesian causal model have a precise mathematical meaning--which, as a bonus, is often intuitive.
 - it gives us intuition for how and why deep neural neural networks (the large, complicated AI models that make the news) work.
 
 I'll emphasize that last point: the bayesain persepctive connects all the various parts of statistics and machine learning.
@@ -63,7 +64,7 @@ Here are some reason's why people have found the bayesian persepective uncomfort
 - we need to admit that all predictions requie assumptions.
 - we end up with some gnarly integrals.
 
-The first point an exercise in humility--which can be difficult, but rewarding.
+The first point is an exercise in humility--which can be difficult, but rewarding.
 
 The second one, about the integrals, is interesting. 
 It used to be a problem before computers and certain algorithms--Markov Chain Monte Carlo variants, mostly--were invented and refined. 
@@ -71,7 +72,7 @@ Now, with librairies like pymc or similar, we can consistently wiggle our way pa
 There's a lot of depth here, but the point is that we have tools that are just as reliable as those tables of normal z scores you'll find on the AP stats exam.
 
 ## Textbook(s) Used
-This textbook serves as the backbone of the course
+The textbook below serves as the backbone of the course
 
 [Bayesian Analysis with Python](https://bap.com.ar/): A pratical guide to probablistic modeling, citation below:
 
@@ -80,7 +81,7 @@ Martin Osvaldo A, Bayesian Analysis with Python. Packt Publishing. 2024. ISBN 97
 Buy it, support the author. I used the third additon, and will reference it as BAP3.  [Github link to code for the book](https://github.com/aloctavodia/BAP3).
 
 This course closely follows this textbook in scope, content, pace, and presentation.
-The main differences: my course breaks BAP3's first two units into 3 units, my course adds an intro to python unit, changes the order and scope of later units, and leaves out content 
+The main differences: my course breaks BAP3's first 2 units into 3 units, my course adds an intro to python unit, changes the order and scope of later units, and leaves out content 
 (the left out content is mostly stuff to do with binary and discrete decision making, such as bayes factor, bayesian p values, ROPE, etc.).
 
 There's a second textbook I recommend, which serves as the soul of the course:
