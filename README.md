@@ -55,7 +55,7 @@ See the folder 'CourseRubrics&Details' for a more thorough break down of the uni
 Instead of explaining what bayesian statistics is, I'll just say why its good:
 
 - *all* assumptions about the scope of a problem can--theoretically--be included in a bayesian causal model.
-- all parts of a bayesian causal model have a precise mathematical meaning--which, as a bonus, is often intuitive.
+- all parts of a bayesian causal model have a precise (often intuitive) mathematical meaning.
 - it gives us intuition for how and why deep neural neural networks (the large, complicated AI models that make the news) work.
 
 I'll emphasize that last point: the bayesain persepctive connects all the various parts of statistics and machine learning.
