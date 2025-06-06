@@ -28,12 +28,10 @@
 
 - [Not ready] Unit 9: Neural Networks. Really three units: neural network from scratch in python, neural network built with PyTorch, and playing with a baby Large Language model. I'd like to cover how dropout, CNN, and transformers can be thought of as priors on a nerual network, but I might not be able to fit it in. 
 
-- [Not ready] Unit i: Causal Inference and GLMs. This is a stand alone unit. I'll use this to introduce students who are already familiar tiwht linear regression to jump into the most useful parts of
-bayesian causal modeling as quickly as possible. The 
+- [Not ready] Unit i: Causal Inference and GLMs. This is a stand alone unit I'm planning on writing in the future. This will provide the bare minimum information needed to produce a causal bayesian model. 
 
 
-- [Not ready] Unit 10: Unsuprevised learning. PCA and UMAP? This doesn't have anything to do with bayesian statistics, or causal inference, but these are useful tools and ideas.
-  - Guess at length: ? total hours 
+- [Not ready] Unit 10: Convolution and Transformer Neural Networks. Someday I'll write this. 
 
 
 ## Grading Scheme
@@ -92,16 +90,15 @@ Its possible to get the majority of the credit here without a fully working mode
 
 - 10% for an oral presentation that covers all the above
 
-Once the dealine for a project has passed, I give students one day to collaborate as much as they like in preperation for oral presentations.
-This also gives me time to grade.
+**It is possible to get a passign grade without having a working model**; the write up of your thoughts and ideas is mroe important than your model working. 
+All models are wrong, some models are useful. Understanding the world is more important to a data scientist than making a fancy model. Your writing is how I will judge your attempt to understand the world.
 
-The next day, volunteers--or a random sample of students, if no one volunteers--present. I average those students' presentation performances,
-and apply that average as everyone's presentation grade.
+Oral presentations will usually happen in small groups. 
 
 #### Late policy/Absence Policy
 
 - Projects:
-  - First late project penatly: max grade of 90%; 0 for the presentation grade.
+  - First late project penalty: max grade of 90%; 0 for the presentation grade.
   - Second: max grade is 70%, and I will deprioritize grading it.
   - Third or more: max grade is 60%, and I will deprioritize grading it.
 - Class participation:
