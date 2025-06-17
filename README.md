@@ -89,7 +89,7 @@ There's a second textbook I recommend, which serves as the soul of the course:
 [Statistical Rethinking](https://xcelab.net/rm/): A Bayesian Course with Examples in R and Stan, by Richard McElreath.
 
 It moves even slower the BAP3, and gracefully melds practical programming advice, sound mathematical reasoning, and sober scientific ideals together, all with a dash of humor.
-Buy it, read it, **watch his lectures on youtube**.
+Buy it, read it, [watch his lectures on youtube](https://www.youtube.com/watch?v=FdnMWdICdRs&list=PLDcUM9US4XdPz-KxHM4XHt7uUVGWWVSus).
 
 ### Other Useful Texts
 
