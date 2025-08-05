@@ -11,7 +11,7 @@
   -  More comentary/examples with pymc woven in.
   -  Approx. length: 2 hours for notes, 3 hours for exercises, and 6 hours for the project. 11 total hours
  
--  Unit 4: Hierarchical Models. An introduction to hyper priors, and how we can use them to make a model with partially dependent groups.
+-  Unit 4: Hierarchical Models. An introduction to hyper priors, and how we can use them to make a model with partially dependent groups. I also introduce causal graphs.
   - Guess at length: 4 hours for the notes, 3 hours for exercises, and 3.5 hours for the project. 10.5 total hours
 
 - Unit 5: Linear Models (1 predictor). How to use one set of data to predict another, and all the perils therein. We cover a lot of single variable generlized linear model concepts.
@@ -20,16 +20,15 @@
 - Unit 6: Linear Models (multiple predictors). Linear models, except more than 1 predictor. Under/Overfitting, model/variable selection, and visualizing high dimensional models.
   - Guess at length: 3 hours notes, 3 hours for exercises, and 4 hours for the project. 10 total hours
 
-- Unit 7: Fitting Curves. Polynomial regression, b splines, and Gaussian Processes. Also: how all those relate on a continuum, and discussion on where Neural Networks lie on that continuum.
+- Unit 7: Fitting Curves. Polynomial regression, b splines, and Gaussian Processes (GP). Also: how all those relate on a continuum, and discussion on where Neural Networks lie on that continuum.
   - Guess at length: 3 hours notes, 1 hour for exercises, and 4 hours for the project. 8 total hours
 
 - Unit 8: Bayesian Additive Regression Trees (BART). A bayesianification of random forests. I cover probabilistic decison trees, explain random forests conceptually, and then jump into practical examples
   - Guess at length: 8 hours total
 
-- [Not ready] Unit 9: Neural Networks. Really three units: neural network from scratch in python, neural network built with PyTorch, and playing with a baby Large Language model. I'd like to cover how dropout, CNN, and transformers can be thought of as priors on a nerual network, but I might not be able to fit it in. 
+- Unit 9: Neural Networks (NNs). How to use pytorch to build a basic feed forward neural network. Light discussion on the relationship to GPs and the bayesian interpretation of NNs. 
 
 - [Not ready] Unit i: Causal Inference and GLMs. This is a stand alone unit I'm planning on writing in the future. This will provide the bare minimum information needed to produce a causal bayesian model. 
-
 
 - [Not ready] Unit 10: Convolution and Transformer Neural Networks. Someday I'll write this. 
 
@@ -40,7 +39,18 @@ I created a scheme that:
 - focues on how students explain and justify their decisions
 - rewards creativity in written, oral, and visual presentation.
 
+And this year, I'm going to see what happens when I more or less ignore my own grading scheme, and give everyone a 100.
+
+I've been thinking a lot about grades, and what they are good for:
+
+- Ranking people--a main function of grades--just encourages competition. Which is useful, no doubt, but I'd rather soften the competition by removing the authority that numbers give. I don't want any of you to think of your worth as a number.
+- Providing feedback--the most usful thing grades do--can be done without grades at all. I will do my best to make my feedback reference what I see in your work, and to deliver that feedback verbally or orally. Admittedly, I may have to slacken and limit my feedback to one of \["not good enough", "good enough", "Excellent!"]--I am only human, and cannot give insight all the time.
+
+All this to say **ASK ME TO LOOK AT YOUR WORK AND PROVIDE FEEDBACK**. Failing that, at least ask your fellow students to judge your work. You don't have to do anything in this class alone; I want to help you.
+
 ### Grade Break Down
+
+Reminder: This is a sham to keep me in compliance with powers that be. (To those powers that be: Do grades help students? How? Why would we waste our time doing anything besides helping students?)
 
 Overall:
 - 50% for class participation
@@ -57,6 +67,8 @@ Students can earn participation credit by:
 - completing tasks from the notes or exercises
 - working on a project
 
+If you disagree with me about your grade--then good! That's an exuse to talk to me. I want to have a conversation with you! All grades are up for discussion.
+
 #### Exercises
 
 As long as all sources are cited, anything goes for exercises. On exercises, my notes do not need to be cited. Exercises are mostly for students to evaluate their own understanding.
@@ -64,6 +76,8 @@ As long as all sources are cited, anything goes for exercises. On exercises, my 
 ~66% of this grade is completion (given reasonable answers).
 
 ~33% is accuracy
+
+If you disagree with me about your grade--then good! That's an exuse to talk to me. I want to have a conversation with you! All grades are up for discussion.
 
 #### Projects
 
@@ -90,10 +104,12 @@ Its possible to get the majority of the credit here without a fully working mode
 
 - 10% for an oral presentation that covers all the above
 
-**It is possible to get a passign grade without having a working model**; the write up of your thoughts and ideas is mroe important than your model working. 
+It is possible to get a passing grade without having a working model; **the write up of your thoughts and ideas is mroe important than your model working**--in this class, at least. 
 All models are wrong, some models are useful. Understanding the world is more important to a data scientist than making a fancy model. Your writing is how I will judge your attempt to understand the world.
 
 Oral presentations will usually happen in small groups. 
+
+If you disagree with me about your grade--then good! That's an exuse to talk to me. I want to have a conversation with you! All grades are up for discussion.
 
 #### Late policy/Absence Policy
 
@@ -106,4 +122,10 @@ Oral presentations will usually happen in small groups.
 - Exercises:
   - Late exercises will be given a grade of 50.
 
+... if all grades are fake in this class, then why turn in anything on time? 
+
+I will only provide feedback to assignments that are turned in on time, or for which you had a disscussion with me about an extension *before* the due date.
+
+Also, if you turn something in late without letting me know why, I will assume you don't care about my class. That's fine, so long as you are not negatively affecting other students. 
+If you do avoid learning in my class, I will resentfully ignore you.
  
