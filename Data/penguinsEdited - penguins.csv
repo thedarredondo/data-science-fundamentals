@@ -2,7 +2,6 @@ body_mass,bill_length,bill_depth,flipper_length,species
 3.75,3.91,1.87,18.1,Adelie
 3.8,3.95,1.74,18.6,Adelie
 3.25,4.03,1.8,19.5,Adelie
-,,,,Adelie
 3.45,3.67,1.93,19.3,Adelie
 3.65,3.93,2.06,19,Adelie
 3.625,3.89,1.78,18.1,Adelie
@@ -270,7 +269,6 @@ body_mass,bill_length,bill_depth,flipper_length,species
 4.875,4.45,1.57,21.7,Gentoo
 6,4.88,1.62,22.2,Gentoo
 4.925,4.72,1.37,21.4,Gentoo
-,,,,Gentoo
 4.85,4.68,1.43,21.5,Gentoo
 5.75,5.04,1.57,22.2,Gentoo
 5.2,4.52,1.48,21.2,Gentoo
