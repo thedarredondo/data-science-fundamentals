@@ -11,7 +11,7 @@ By the end of the course, students will be able to:
 
 - explain why all models require assumptions/context.
 
-- Create and interpret bayesian and causal models.
+- create and interpret bayesian and causal models.
 
 Additionally, students will gain an understanding of why neural networks perform so well, by exploring the concepts of priors, likelihoods, and Gaussian Processes
 
@@ -29,7 +29,7 @@ Content Knowledge:
 
   - Algebra II
 
-This course assumes students have decent graphical inuition, and assumes that students find it obvious that graphs can summarize functions/algorithms. 
+This course assumes students have decent with the graphical inuition, and assumes that students find it obvious that graphs can summarize functions/algorithms. 
 
 No prior coding/progamming experience necessary.
 
@@ -50,6 +50,16 @@ and are written to be viewed by educators and students alike.
 
 See the folder 'CourseRubrics&Details' for a more thorough break down of the units and my personal grading scheme.
 
+### Other Folders
+
+There's also a data folder, and a "FastTrack" folder.
+
+Data is self explanatory: it has data used in the course, and it has links to other data repositories that might be of use.
+
+"FastTrack" is my latest experiment in trying to get students and professionals to make the transition from frequentist statistics to bayesian statistics.
+If you want to learn how to make resonalbe causal statements about the world using evidence, then this is the fastest way to do that. It essentially 
+drops you right into an abbreviated version of Unit6.
+
 ## What's this whole Bayesian Thing?
 
 Instead of explaining what bayesian statistics is, I'll just say why its good:
@@ -61,7 +71,7 @@ Instead of explaining what bayesian statistics is, I'll just say why its good:
 I'll emphasize that last point: the bayesain persepctive connects all the various parts of statistics and machine learning.
 
 Here are some reason's why people have found the bayesian persepective uncomfortable:
-- we need to admit that all predictions requie assumptions.
+- we need to admit that all predictions require assumptions.
 - we end up with some gnarly integrals.
 
 The first point is an exercise in humility--which can be difficult, but rewarding.
